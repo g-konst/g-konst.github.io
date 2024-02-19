@@ -4,7 +4,7 @@
 platforms:
   - type: VKontakte
     icon: "fab fa-vk"
-    link: "http://vk.com/share.php?url=URL&title=TITLE"
+    link: "https://vk.com/share.php?url=URL&title=TITLE"
 
   - type: Telegram
     icon: "fab fa-telegram"
@@ -38,9 +38,9 @@ platforms:
     icon: "fab fa-pinterest"
     link: "https://pinterest.com/pin/create/button/?url=URL&description=TITLE"
 
-  - type: Email
-    icon: "fa-solid fa-envelope"
-    link: "mailto:?subject=TITLE&body=URL"
+  # - type: Email
+  #   icon: "fa-solid fa-envelope"
+  #   link: "mailto:?subject=TITLE&body=URL"
 
   # Uncomment below if you need to.
   #
