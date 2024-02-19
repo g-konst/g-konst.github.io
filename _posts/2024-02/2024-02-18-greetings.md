@@ -1,6 +1,6 @@
 ---
 title: Всем привет
-date: 2024-02-19 20:00:00 +0300
+date: 2024-02-19 18:00:00 +0300
 image:
   path: /assets/img/posts/vladislav-klapin-UVcivuSZXVs-unsplash-original.jpg
   lqip: /assets/img/posts/vladislav-klapin-UVcivuSZXVs-unsplash-small.jpg
