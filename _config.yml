@@ -14,7 +14,7 @@ timezone: Europe/Moscow
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title:
+title: k.grudnitskiy
 tagline: Блог о разработке <br/> &nbsp;&nbsp; и не только ...
 
 description: >- # used by seo meta and the atom feed
@@ -34,9 +34,11 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Константин Грудницкий
+  b_date: 1992-01-20
   email: k.grudnitskiy@yandex.ru # change to your email address
   links:
     # The first element serves as the copyright owner's link
+    - https://vk.com/k.grudnitskiy
     - https://github.com/g-konst # change to your github homepage
     - https://twitter.com/username # change to your twitter homepage
     # Uncomment below to add more social links
@@ -107,7 +109,7 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
+    enabled: true # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
     env: # [development | production]

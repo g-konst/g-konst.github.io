@@ -1,0 +1,18 @@
+{%- assign curSec = site.time | date: '%s' %}
+{%- assign birthSec = site.social.b_date | date: '%s' %}
+{%- assign secOnYear = 31536000 %}
+
+{%- assign tSec = cur | minus: birth %}
+{%- assign yearsOld = curSec | minus: birthSec | divided_by: secOnYear %}
+{%- assign yearsEnd = yearsOld | split: "" | last %}
+
+{% case yearsEnd %}
+  {% when "1" %}
+    {% capture word %}год{% endcapture %}
+  {% when "2", "3", "4" %}
+     {% capture word %}года{% endcapture %}
+  {% else %}
+     {% capture word %}лет{% endcapture %}
+{% endcase %}
+
+{% capture yearsOldStr %}{{ yearsOld }} {{ word }}{% endcapture %}
